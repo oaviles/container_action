@@ -1,7 +1,13 @@
 name: "My NetCore action using Docker powered by OA"
 
 description: "NetCore with GitHub Actions using Docker"
-    
+
+inpunts:
+  message: # Input message parameter
+  description: 'Type here to pass your message'
+  required: false
+  default: 'OA Demo: Github Container Actions: .Net 6.0'
+
 runs:
   using: "docker"
   image: "Dockerfile"
