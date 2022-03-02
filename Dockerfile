@@ -20,4 +20,4 @@ RUN dotnet publish "container_action.csproj" -c Release -o /app/publish /p:UseAp
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["/usr/bin/dotnet", "/app/container_action.dll"]
+ENTRYPOINT ["/usr/bin/dotnet", "/app/publish/container_action.dll"]
