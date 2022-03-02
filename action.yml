@@ -2,7 +2,7 @@ name: "My NetCore action using Docker powered by OA"
 
 description: "NetCore with GitHub Actions using Docker"
 
-inpunts:
+inputs:
   message: # Input message parameter
   description: 'Type here to pass your message'
   required: false
