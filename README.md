@@ -2,4 +2,6 @@
 
 This actions is used by workflow [call-remote-container-action.yml](https://github.com/oaviles/demolab1/blob/main/.github/workflows/call-remote-container-action.yml) in repo [demolab1](https://github.com/oaviles/demolab1)
 
-Reference: [GitHub Container Action](https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action)
+References: 
+- [GitHub Container Action](https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action)
+- [Create a GitHub Action with .NET](https://docs.microsoft.com/en-us/dotnet/devops/create-dotnet-github-action)
